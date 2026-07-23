@@ -17,11 +17,11 @@ Install the Optidata Design skill from https://github.com/victorbenazzi/optidata
 2. Clone or download the repo into the correct personal skills directory for that agent:
    - Cursor: ~/.agents/skills/optidata-design (then symlink to ~/.cursor/skills/optidata-design)
    - Claude Code: ~/.claude/skills/optidata-design
-   - Codex: ~/.codex/skills/optidata-design
+   - Codex: ~/.agents/skills/optidata-design (or ~/.codex/skills/optidata-design if that is what this environment uses)
    If I ask for a project-scoped install instead, use:
    - Cursor: .cursor/skills/optidata-design
    - Claude Code: .claude/skills/optidata-design
-   - Codex: .agents/skills/optidata-design (or .codex/skills/optidata-design if that exists in this setup)
+   - Codex: .agents/skills/optidata-design
 3. Ensure the folder contains SKILL.md at its root (plus DESIGN.md, never.md, practices.md, checklist.md, feedback-log.md, sources.md).
 4. Confirm installation with the final path(s) and tell me how to invoke it (/optidata-design or by asking for Optidata Ultravioleta UI work).
 5. Do not modify the skill files unless I ask. Prefer a fresh clone over a partial copy.
